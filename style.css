@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow: scroll !important;
+    height: 100%;
+    width: 100%;
+}
+
+html, body{
+    font-family: 'Courier New', Courier, monospace;
+    color: #dc3545 !important;
+    background: #25252b !important;
+    /* display */
+    flex-direction: column;
+}
+
+body {
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+}
+
+a {
+    color: #dc3545 !important;
+}
+
+nav {
+    background-color: #25252b;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: #dc3545;
+    vertical-align: center;
+}
+
+#initialButton {
+    color: #25252b;
+}
+
+nav ul {
+    float: right; 
+}
+
+nav li{
+    display: inline;
+    margin: 40px;
+    font-size: large;
+}
+
+#namer{
+    font-size: x-large;
+    color: #dc3545;
+    text-decoration: none;
+}
+
+/* https://www.youtube.com/watch?v=ES8vJcUqE7s */
+.sidebar{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 27%;
+    width: 60px;
+    background: #25252b;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    line-height: 65px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.sidebar li {
+    font-size: 30px;
+    color: #dc3545;
+}
+/*  */
+
+.introMe {
+    display: flex;
+    background: #25252b;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.introMe img {
+    width: 25%;
+    margin: 25px;
+}
+
+.introText {
+    vertical-align: middle;
+    color: #dc3545;
+    margin: 25px;
+    margin-top: 7%;
+
+}
+
+.introText h1, .sectionTitle, .educationInfo b{
+    color: lightslategrey;
+}
+
+.introText h2{
+    opacity: 50%;
+}
+
+.img-me {
+    width: 50%;
+    box-shadow: 10px 10px #dc3545;
+}
+
+footer {
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: x-small;
+    position: absolute;
+    width: 100%;
+    bottom: 0;    
+}
+
+/* Make responsive */
+.aboutSection, .projectSection, .sectionTitle {
+    text-align: center;
+    justify-content: center;
+}
+
+.sectionTitle {
+    margin-top: 1%;
+}
+
+.aboutInfo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.aboutText {
+    margin-top: 3%;
+    text-align: center;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.csin3Logo {
+    margin-left: 20%;
+}
+
+.educationInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.educationInfo img{
+    display: block;
+    margin: 0 auto;
+}
+
+.hartnell, .csumb {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.titler h4{
+    color: lightslategrey;
+    font-style: italic;
+}
+
+.experienceSection h6, .titler h6 {
+    color: rgb(186, 201, 215);
+}
+
+.codepath, .cti {
+    margin: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.desc {
+    width: 45%;
+    vertical-align: center;
+    align-items: center;
+}
+
+.cpImg, .ctiImg {
+    width: 30%;
+    text-align: center;
+}
+
+.cpImg img ,.ctiImg img{
+    width: 60%;
+}
+
+.ctiLogo {
+    background-color: white;
+}
+
+.text {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height: 200px;
+}
